@@ -1,0 +1,1254 @@
+/* - github */
+.github ul {
+	margin: -40px -20px 0 -20px;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.github ul li {
+	position: relative;
+	padding: 40px 20px 0 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.github .name {
+	margin: 0 0 30px 0;
+	position: relative;
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 800;
+}
+
+.github .single-post-text {
+	margin-bottom: 30px;
+}
+
+.github .progress {
+	display: block;
+	height: 2px;
+	position: relative;
+	width: 100%;
+	background: #585d65;
+}
+
+.github .progress .percentage {
+	left: 0;
+	top: 0;
+	position: absolute;
+	height: 2px;
+	width: 0%;
+	background: #68e0cf;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+
+.github .progress .percentage .percent {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	font-size: 12px;
+	color: #68e0cf;
+	font-weight: 600;
+}
+
+.github.list .name {
+	padding-left: 35px;
+	position: relative;
+}
+
+.github.list .name:before {
+	content: "\f00c";
+	position: absolute;
+	left: 0;
+	top: 3px;
+	display: inline-block;
+	color: #68e0cf;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+}
+
+.github.list .progress {
+	display: none;
+}
+
+.github.dotted .progress {
+	height: 14px;
+	background: transparent !important;
+}
+
+.github.dotted .progress .percentage {
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	height: 14px;
+	background: transparent !important;
+	z-index: 2;
+}
+
+.github.dotted .progress .dg,
+.github.dotted .progress .da {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 14px;
+}
+
+.github.dotted .progress .dg span,
+.github.dotted .progress .da span {
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: #585d65;
+	border-radius: 14px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-khtml-border-radius: 14px;
+}
+
+.github.dotted .progress .da {
+	top: 0;
+}
+
+.github.dotted .progress .da span {
+	background: #68e0cf;
+}
+
+.github.circles ul li {
+	width: 33.333%;
+}
+
+.github.circles .progress {
+	margin: 0 0 30px 0;
+	position: relative;
+	font-size: 90px;
+	width: 90px;
+	height: 90px;
+	background: #585d65;
+	border-radius: 90px;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-khtml-border-radius: 90px;
+}
+
+.github.circles .progress:after {
+	content: '';
+	position: absolute;
+	top: 0.04em;
+	left: 0.04em;
+	width: 0.92em;
+	height: 0.92em;
+	display: block;
+	background-color: #373b40;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+}
+
+.github.circles .progress span {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	color: #68e0cf;
+	font-weight: 600;
+	line-height: 90px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 2;
+}
+
+.github.circles .progress .percentage {
+	display: none;
+}
+
+.github.circles .progress .slice {
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	clip: rect(0em, 1em, 1em, 0.5em);
+	-webkit-clip: rect(0em, 1em, 1em, 0.5em);
+}
+
+.github.circles .single-post-text {
+	margin-bottom: 0;
+}
+
+
+.github.circles .progress.p51 .slice,
+.github.circles .progress.p52 .slice,
+.github.circles .progress.p53 .slice,
+.github.circles .progress.p54 .slice,
+.github.circles .progress.p55 .slice,
+.github.circles .progress.p56 .slice,
+.github.circles .progress.p57 .slice,
+.github.circles .progress.p58 .slice,
+.github.circles .progress.p59 .slice,
+.github.circles .progress.p60 .slice,
+.github.circles .progress.p61 .slice,
+.github.circles .progress.p62 .slice,
+.github.circles .progress.p63 .slice,
+.github.circles .progress.p64 .slice,
+.github.circles .progress.p65 .slice,
+.github.circles .progress.p66 .slice,
+.github.circles .progress.p67 .slice,
+.github.circles .progress.p68 .slice,
+.github.circles .progress.p69 .slice,
+.github.circles .progress.p70 .slice,
+.github.circles .progress.p71 .slice,
+.github.circles .progress.p72 .slice,
+.github.circles .progress.p73 .slice,
+.github.circles .progress.p74 .slice,
+.github.circles .progress.p75 .slice,
+.github.circles .progress.p76 .slice,
+.github.circles .progress.p77 .slice,
+.github.circles .progress.p78 .slice,
+.github.circles .progress.p79 .slice,
+.github.circles .progress.p80 .slice,
+.github.circles .progress.p81 .slice,
+.github.circles .progress.p82 .slice,
+.github.circles .progress.p83 .slice,
+.github.circles .progress.p84 .slice,
+.github.circles .progress.p85 .slice,
+.github.circles .progress.p86 .slice,
+.github.circles .progress.p87 .slice,
+.github.circles .progress.p88 .slice,
+.github.circles .progress.p89 .slice,
+.github.circles .progress.p90 .slice,
+.github.circles .progress.p91 .slice,
+.github.circles .progress.p92 .slice,
+.github.circles .progress.p93 .slice,
+.github.circles .progress.p94 .slice,
+.github.circles .progress.p95 .slice,
+.github.circles .progress.p96 .slice,
+.github.circles .progress.p97 .slice,
+.github.circles .progress.p98 .slice,
+.github.circles .progress.p99 .slice,
+.github.circles .progress.p100 .slice {
+	clip: rect(auto, auto, auto, auto);
+	-webkit-clip: rect(auto, auto, auto, auto);
+}
+
+
+.github.circles .progress .bar,
+.github.circles .progress.p51 .fill,
+.github.circles .progress.p52 .fill,
+.github.circles .progress.p53 .fill,
+.github.circles .progress.p54 .fill,
+.github.circles .progress.p55 .fill,
+.github.circles .progress.p56 .fill,
+.github.circles .progress.p57 .fill,
+.github.circles .progress.p58 .fill,
+.github.circles .progress.p59 .fill,
+.github.circles .progress.p60 .fill,
+.github.circles .progress.p61 .fill,
+.github.circles .progress.p62 .fill,
+.github.circles .progress.p63 .fill,
+.github.circles .progress.p64 .fill,
+.github.circles .progress.p65 .fill,
+.github.circles .progress.p66 .fill,
+.github.circles .progress.p67 .fill,
+.github.circles .progress.p68 .fill,
+.github.circles .progress.p69 .fill,
+.github.circles .progress.p70 .fill,
+.github.circles .progress.p71 .fill,
+.github.circles .progress.p72 .fill,
+.github.circles .progress.p73 .fill,
+.github.circles .progress.p74 .fill,
+.github.circles .progress.p75 .fill,
+.github.circles .progress.p76 .fill,
+.github.circles .progress.p77 .fill,
+.github.circles .progress.p78 .fill,
+.github.circles .progress.p79 .fill,
+.github.circles .progress.p80 .fill,
+.github.circles .progress.p81 .fill,
+.github.circles .progress.p82 .fill,
+.github.circles .progress.p83 .fill,
+.github.circles .progress.p84 .fill,
+.github.circles .progress.p85 .fill,
+.github.circles .progress.p86 .fill,
+.github.circles .progress.p87 .fill,
+.github.circles .progress.p88 .fill,
+.github.circles .progress.p89 .fill,
+.github.circles .progress.p90 .fill,
+.github.circles .progress.p91 .fill,
+.github.circles .progress.p92 .fill,
+.github.circles .progress.p93 .fill,
+.github.circles .progress.p94 .fill,
+.github.circles .progress.p95 .fill,
+.github.circles .progress.p96 .fill,
+.github.circles .progress.p97 .fill,
+.github.circles .progress.p98 .fill,
+.github.circles .progress.p99 .fill,
+.github.circles .progress.p100 .fill {
+	position: absolute;
+	width: 0.92em;
+	height: 0.92em;
+	clip: rect(0em, 0.5em, 1em, 0em);
+	-webkit-clip: rect(0em, 0.5em, 1em, 0em);
+	border: 0.04em solid #68e0cf;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+}
+
+
+.github.circles .progress.p51 .bar:after,
+.github.circles .progress.p51 .fill,
+.github.circles .progress.p52 .bar:after,
+.github.circles .progress.p52 .fill,
+.github.circles .progress.p53 .bar:after,
+.github.circles .progress.p53 .fill,
+.github.circles .progress.p54 .bar:after,
+.github.circles .progress.p54 .fill,
+.github.circles .progress.p55 .bar:after,
+.github.circles .progress.p55 .fill,
+.github.circles .progress.p56 .bar:after,
+.github.circles .progress.p56 .fill,
+.github.circles .progress.p57 .bar:after,
+.github.circles .progress.p57 .fill,
+.github.circles .progress.p58 .bar:after,
+.github.circles .progress.p58 .fill,
+.github.circles .progress.p59 .bar:after,
+.github.circles .progress.p59 .fill,
+.github.circles .progress.p60 .bar:after,
+.github.circles .progress.p60 .fill,
+.github.circles .progress.p61 .bar:after,
+.github.circles .progress.p61 .fill,
+.github.circles .progress.p62 .bar:after,
+.github.circles .progress.p62 .fill,
+.github.circles .progress.p63 .bar:after,
+.github.circles .progress.p63 .fill,
+.github.circles .progress.p64 .bar:after,
+.github.circles .progress.p64 .fill,
+.github.circles .progress.p65 .bar:after,
+.github.circles .progress.p65 .fill,
+.github.circles .progress.p66 .bar:after,
+.github.circles .progress.p66 .fill,
+.github.circles .progress.p67 .bar:after,
+.github.circles .progress.p67 .fill,
+.github.circles .progress.p68 .bar:after,
+.github.circles .progress.p68 .fill,
+.github.circles .progress.p69 .bar:after,
+.github.circles .progress.p69 .fill,
+.github.circles .progress.p70 .bar:after,
+.github.circles .progress.p70 .fill,
+.github.circles .progress.p71 .bar:after,
+.github.circles .progress.p71 .fill,
+.github.circles .progress.p72 .bar:after,
+.github.circles .progress.p72 .fill,
+.github.circles .progress.p73 .bar:after,
+.github.circles .progress.p73 .fill,
+.github.circles .progress.p74 .bar:after,
+.github.circles .progress.p74 .fill,
+.github.circles .progress.p75 .bar:after,
+.github.circles .progress.p75 .fill,
+.github.circles .progress.p76 .bar:after,
+.github.circles .progress.p76 .fill,
+.github.circles .progress.p77 .bar:after,
+.github.circles .progress.p77 .fill,
+.github.circles .progress.p78 .bar:after,
+.github.circles .progress.p78 .fill,
+.github.circles .progress.p79 .bar:after,
+.github.circles .progress.p79 .fill,
+.github.circles .progress.p80 .bar:after,
+.github.circles .progress.p80 .fill,
+.github.circles .progress.p81 .bar:after,
+.github.circles .progress.p81 .fill,
+.github.circles .progress.p82 .bar:after,
+.github.circles .progress.p82 .fill,
+.github.circles .progress.p83 .bar:after,
+.github.circles .progress.p83 .fill,
+.github.circles .progress.p84 .bar:after,
+.github.circles .progress.p84 .fill,
+.github.circles .progress.p85 .bar:after,
+.github.circles .progress.p85 .fill,
+.github.circles .progress.p86 .bar:after,
+.github.circles .progress.p86 .fill,
+.github.circles .progress.p87 .bar:after,
+.github.circles .progress.p87 .fill,
+.github.circles .progress.p88 .bar:after,
+.github.circles .progress.p88 .fill,
+.github.circles .progress.p89 .bar:after,
+.github.circles .progress.p89 .fill,
+.github.circles .progress.p90 .bar:after,
+.github.circles .progress.p90 .fill,
+.github.circles .progress.p91 .bar:after,
+.github.circles .progress.p91 .fill,
+.github.circles .progress.p92 .bar:after,
+.github.circles .progress.p92 .fill,
+.github.circles .progress.p93 .bar:after,
+.github.circles .progress.p93 .fill,
+.github.circles .progress.p94 .bar:after,
+.github.circles .progress.p94 .fill,
+.github.circles .progress.p95 .bar:after,
+.github.circles .progress.p95 .fill,
+.github.circles .progress.p96 .bar:after,
+.github.circles .progress.p96 .fill,
+.github.circles .progress.p97 .bar:after,
+.github.circles .progress.p97 .fill,
+.github.circles .progress.p98 .bar:after,
+.github.circles .progress.p98 .fill,
+.github.circles .progress.p99 .bar:after,
+.github.circles .progress.p99 .fill,
+.github.circles .progress.p100 .bar:after,
+.github.circles .progress.p100 .fill {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+
+
+.github.circles .progress *, .github.circles .progress *:before, .github.circles .progress *:after {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+
+.github.circles .progress.p1 .bar {
+	transform: rotate(3.6deg);
+	-webkit-transform: rotate(3.6deg);
+	-moz-transform: rotate(3.6deg);
+	-o-transform: rotate(3.6deg);
+}
+
+
+.github.circles .progress.p2 .bar {
+	transform: rotate(7.2deg);
+	-webkit-transform: rotate(7.2deg);
+	-moz-transform: rotate(7.2deg);
+	-o-transform: rotate(7.2deg);
+}
+
+
+.github.circles .progress.p3 .bar {
+	transform: rotate(10.8deg);
+	-webkit-transform: rotate(10.8deg);
+	-moz-transform: rotate(10.8deg);
+	-o-transform: rotate(10.8deg);
+}
+
+
+.github.circles .progress.p4 .bar {
+	transform: rotate(14.4deg);
+	-webkit-transform: rotate(14.4deg);
+	-moz-transform: rotate(14.4deg);
+	-o-transform: rotate(14.4deg);
+}
+
+
+.github.circles .progress.p5 .bar {
+	transform: rotate(18deg);
+	-webkit-transform: rotate(18deg);
+	-moz-transform: rotate(18deg);
+	-o-transform: rotate(18deg);
+}
+
+
+.github.circles .progress.p6 .bar {
+	transform: rotate(21.6deg);
+	-webkit-transform: rotate(21.6deg);
+	-moz-transform: rotate(21.6deg);
+	-o-transform: rotate(21.6deg);
+}
+
+
+.github.circles .progress.p7 .bar {
+	transform: rotate(25.2deg);
+	-webkit-transform: rotate(25.2deg);
+	-moz-transform: rotate(25.2deg);
+	-o-transform: rotate(25.2deg);
+}
+
+
+.github.circles .progress.p8 .bar {
+	transform: rotate(28.8deg);
+	-webkit-transform: rotate(28.8deg);
+	-moz-transform: rotate(28.8deg);
+	-o-transform: rotate(28.8deg);
+}
+
+
+.github.circles .progress.p9 .bar {
+	transform: rotate(32.4deg);
+	-webkit-transform: rotate(32.4deg);
+	-moz-transform: rotate(32.4deg);
+	-o-transform: rotate(32.4deg);
+}
+
+
+.github.circles .progress.p10 .bar {
+	transform: rotate(36deg);
+	-webkit-transform: rotate(36deg);
+	-moz-transform: rotate(36deg);
+	-o-transform: rotate(36deg);
+}
+
+
+.github.circles .progress.p11 .bar {
+	transform: rotate(39.6deg);
+	-webkit-transform: rotate(39.6deg);
+	-moz-transform: rotate(39.6deg);
+	-o-transform: rotate(39.6deg);
+}
+
+
+.github.circles .progress.p12 .bar {
+	transform: rotate(43.2deg);
+	-webkit-transform: rotate(43.2deg);
+	-moz-transform: rotate(43.2deg);
+	-o-transform: rotate(43.2deg);
+}
+
+
+.github.circles .progress.p13 .bar {
+	transform: rotate(46.8deg);
+	-webkit-transform: rotate(46.8deg);
+	-moz-transform: rotate(46.8deg);
+	-o-transform: rotate(46.8deg);
+}
+
+
+.github.circles .progress.p14 .bar {
+	transform: rotate(50.4deg);
+	-webkit-transform: rotate(50.4deg);
+	-moz-transform: rotate(50.4deg);
+	-o-transform: rotate(50.4deg);
+}
+
+
+.github.circles .progress.p15 .bar {
+	transform: rotate(54deg);
+	-webkit-transform: rotate(54deg);
+	-moz-transform: rotate(54deg);
+	-o-transform: rotate(54deg);
+}
+
+
+.github.circles .progress.p16 .bar {
+	transform: rotate(57.6deg);
+	-webkit-transform: rotate(57.6deg);
+	-moz-transform: rotate(57.6deg);
+	-o-transform: rotate(57.6deg);
+}
+
+
+.github.circles .progress.p17 .bar {
+	transform: rotate(61.2deg);
+	-webkit-transform: rotate(61.2deg);
+	-moz-transform: rotate(61.2deg);
+	-o-transform: rotate(61.2deg);
+}
+
+
+.github.circles .progress.p18 .bar {
+	transform: rotate(64.8deg);
+	-webkit-transform: rotate(64.8deg);
+	-moz-transform: rotate(64.8deg);
+	-o-transform: rotate(64.8deg);
+}
+
+
+.github.circles .progress.p19 .bar {
+	transform: rotate(68.4deg);
+	-webkit-transform: rotate(68.4deg);
+	-moz-transform: rotate(68.4deg);
+	-o-transform: rotate(68.4deg);
+}
+
+
+.github.circles .progress.p20 .bar {
+	transform: rotate(72deg);
+	-webkit-transform: rotate(72deg);
+	-moz-transform: rotate(72deg);
+	-o-transform: rotate(72deg);
+}
+
+
+.github.circles .progress.p21 .bar {
+	transform: rotate(75.6deg);
+	-webkit-transform: rotate(75.6deg);
+	-moz-transform: rotate(75.6deg);
+	-o-transform: rotate(75.6deg);
+}
+
+
+.github.circles .progress.p22 .bar {
+	transform: rotate(79.2deg);
+	-webkit-transform: rotate(79.2deg);
+	-moz-transform: rotate(79.2deg);
+	-o-transform: rotate(79.2deg);
+}
+
+
+.github.circles .progress.p23 .bar {
+	transform: rotate(82.8deg);
+	-webkit-transform: rotate(82.8deg);
+	-moz-transform: rotate(82.8deg);
+	-o-transform: rotate(82.8deg);
+}
+
+
+.github.circles .progress.p24 .bar {
+	transform: rotate(86.4deg);
+	-webkit-transform: rotate(86.4deg);
+	-moz-transform: rotate(86.4deg);
+	-o-transform: rotate(86.4deg);
+}
+
+
+.github.circles .progress.p25 .bar {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+
+.github.circles .progress.p26 .bar {
+	transform: rotate(93.6deg);
+	-webkit-transform: rotate(93.6deg);
+	-moz-transform: rotate(93.6deg);
+	-o-transform: rotate(93.6deg);
+}
+
+
+.github.circles .progress.p27 .bar {
+	transform: rotate(97.2deg);
+	-webkit-transform: rotate(97.2deg);
+	-moz-transform: rotate(97.2deg);
+	-o-transform: rotate(97.2deg);
+}
+
+
+.github.circles .progress.p28 .bar {
+	transform: rotate(100.8deg);
+	-webkit-transform: rotate(100.8deg);
+	-moz-transform: rotate(100.8deg);
+	-o-transform: rotate(100.8deg);
+}
+
+
+.github.circles .progress.p29 .bar {
+	transform: rotate(104.4deg);
+	-webkit-transform: rotate(104.4deg);
+	-moz-transform: rotate(104.4deg);
+	-o-transform: rotate(104.4deg);
+}
+
+
+.github.circles .progress.p30 .bar {
+	transform: rotate(108deg);
+	-webkit-transform: rotate(108deg);
+	-moz-transform: rotate(108deg);
+	-o-transform: rotate(108deg);
+}
+
+
+.github.circles .progress.p31 .bar {
+	transform: rotate(111.6deg);
+	-webkit-transform: rotate(111.6deg);
+	-moz-transform: rotate(111.6deg);
+	-o-transform: rotate(111.6deg);
+}
+
+
+.github.circles .progress.p32 .bar {
+	transform: rotate(115.2deg);
+	-webkit-transform: rotate(115.2deg);
+	-moz-transform: rotate(115.2deg);
+	-o-transform: rotate(115.2deg);
+}
+
+
+.github.circles .progress.p33 .bar {
+	transform: rotate(118.8deg);
+	-webkit-transform: rotate(118.8deg);
+	-moz-transform: rotate(118.8deg);
+	-o-transform: rotate(118.8deg);
+}
+
+
+.github.circles .progress.p34 .bar {
+	transform: rotate(122.4deg);
+	-webkit-transform: rotate(122.4deg);
+	-moz-transform: rotate(122.4deg);
+	-o-transform: rotate(122.4deg);
+}
+
+
+.github.circles .progress.p35 .bar {
+	transform: rotate(126deg);
+	-webkit-transform: rotate(126deg);
+	-moz-transform: rotate(126deg);
+	-o-transform: rotate(126deg);
+}
+
+
+.github.circles .progress.p36 .bar {
+	transform: rotate(129.6deg);
+	-webkit-transform: rotate(129.6deg);
+	-moz-transform: rotate(129.6deg);
+	-o-transform: rotate(129.6deg);
+}
+
+
+.github.circles .progress.p37 .bar {
+	transform: rotate(133.2deg);
+	-webkit-transform: rotate(133.2deg);
+	-moz-transform: rotate(133.2deg);
+	-o-transform: rotate(133.2deg);
+}
+
+
+.github.circles .progress.p38 .bar {
+	transform: rotate(136.8deg);
+	-webkit-transform: rotate(136.8deg);
+	-moz-transform: rotate(136.8deg);
+	-o-transform: rotate(136.8deg);
+}
+
+
+.github.circles .progress.p39 .bar {
+	transform: rotate(140.4deg);
+	-webkit-transform: rotate(140.4deg);
+	-moz-transform: rotate(140.4deg);
+	-o-transform: rotate(140.4deg);
+}
+
+
+.github.circles .progress.p40 .bar {
+	transform: rotate(144deg);
+	-webkit-transform: rotate(144deg);
+	-moz-transform: rotate(144deg);
+	-o-transform: rotate(144deg);
+}
+
+
+.github.circles .progress.p41 .bar {
+	transform: rotate(147.6deg);
+	-webkit-transform: rotate(147.6deg);
+	-moz-transform: rotate(147.6deg);
+	-o-transform: rotate(147.6deg);
+}
+
+
+.github.circles .progress.p42 .bar {
+	transform: rotate(151.2deg);
+	-webkit-transform: rotate(151.2deg);
+	-moz-transform: rotate(151.2deg);
+	-o-transform: rotate(151.2deg);
+}
+
+
+.github.circles .progress.p43 .bar {
+	transform: rotate(154.8deg);
+	-webkit-transform: rotate(154.8deg);
+	-moz-transform: rotate(154.8deg);
+	-o-transform: rotate(154.8deg);
+}
+
+
+.github.circles .progress.p44 .bar {
+	transform: rotate(158.4deg);
+	-webkit-transform: rotate(158.4deg);
+	-moz-transform: rotate(158.4deg);
+	-o-transform: rotate(158.4deg);
+}
+
+
+.github.circles .progress.p45 .bar {
+	transform: rotate(162deg);
+	-webkit-transform: rotate(162deg);
+	-moz-transform: rotate(162deg);
+	-o-transform: rotate(162deg);
+}
+
+
+.github.circles .progress.p46 .bar {
+	transform: rotate(165.6deg);
+	-webkit-transform: rotate(165.6deg);
+	-moz-transform: rotate(165.6deg);
+	-o-transform: rotate(165.6deg);
+}
+
+
+.github.circles .progress.p47 .bar {
+	transform: rotate(169.2deg);
+	-webkit-transform: rotate(169.2deg);
+	-moz-transform: rotate(169.2deg);
+	-o-transform: rotate(169.2deg);
+}
+
+
+.github.circles .progress.p48 .bar {
+	transform: rotate(172.8deg);
+	-webkit-transform: rotate(172.8deg);
+	-moz-transform: rotate(172.8deg);
+	-o-transform: rotate(172.8deg);
+}
+
+
+.github.circles .progress.p49 .bar {
+	transform: rotate(176.4deg);
+	-webkit-transform: rotate(176.4deg);
+	-moz-transform: rotate(176.4deg);
+	-o-transform: rotate(176.4deg);
+}
+
+
+.github.circles .progress.p50 .bar {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+
+
+.github.circles .progress.p51 .bar {
+	transform: rotate(183.6deg);
+	-webkit-transform: rotate(183.6deg);
+	-moz-transform: rotate(183.6deg);
+	-o-transform: rotate(183.6deg);
+}
+
+
+.github.circles .progress.p52 .bar {
+	transform: rotate(187.2deg);
+	-webkit-transform: rotate(187.2deg);
+	-moz-transform: rotate(187.2deg);
+	-o-transform: rotate(187.2deg);
+}
+
+
+.github.circles .progress.p53 .bar {
+	transform: rotate(190.8deg);
+	-webkit-transform: rotate(190.8deg);
+	-moz-transform: rotate(190.8deg);
+	-o-transform: rotate(190.8deg);
+}
+
+
+.github.circles .progress.p54 .bar {
+	transform: rotate(194.4deg);
+	-webkit-transform: rotate(194.4deg);
+	-moz-transform: rotate(194.4deg);
+	-o-transform: rotate(194.4deg);
+}
+
+
+.github.circles .progress.p55 .bar {
+	transform: rotate(198deg);
+	-webkit-transform: rotate(198deg);
+	-moz-transform: rotate(198deg);
+	-o-transform: rotate(198deg);
+}
+
+
+.github.circles .progress.p56 .bar {
+	transform: rotate(201.6deg);
+	-webkit-transform: rotate(201.6deg);
+	-moz-transform: rotate(201.6deg);
+	-o-transform: rotate(201.6deg);
+}
+
+
+.github.circles .progress.p57 .bar {
+	transform: rotate(205.2deg);
+	-webkit-transform: rotate(205.2deg);
+	-moz-transform: rotate(205.2deg);
+	-o-transform: rotate(205.2deg);
+}
+
+
+.github.circles .progress.p58 .bar {
+	transform: rotate(208.8deg);
+	-webkit-transform: rotate(208.8deg);
+	-moz-transform: rotate(208.8deg);
+	-o-transform: rotate(208.8deg);
+}
+
+
+.github.circles .progress.p59 .bar {
+	transform: rotate(212.4deg);
+	-webkit-transform: rotate(212.4deg);
+	-moz-transform: rotate(212.4deg);
+	-o-transform: rotate(212.4deg);
+}
+
+
+.github.circles .progress.p60 .bar {
+	transform: rotate(216deg);
+	-webkit-transform: rotate(216deg);
+	-moz-transform: rotate(216deg);
+	-o-transform: rotate(216deg);
+}
+
+
+.github.circles .progress.p61 .bar {
+	transform: rotate(219.6deg);
+	-webkit-transform: rotate(219.6deg);
+	-moz-transform: rotate(219.6deg);
+	-o-transform: rotate(219.6deg);
+}
+
+
+.github.circles .progress.p62 .bar {
+	transform: rotate(223.2deg);
+	-webkit-transform: rotate(223.2deg);
+	-moz-transform: rotate(223.2deg);
+	-o-transform: rotate(223.2deg);
+}
+
+
+.github.circles .progress.p63 .bar {
+	transform: rotate(226.8deg);
+	-webkit-transform: rotate(226.8deg);
+	-moz-transform: rotate(226.8deg);
+	-o-transform: rotate(226.8deg);
+}
+
+
+.github.circles .progress.p64 .bar {
+	transform: rotate(230.4deg);
+	-webkit-transform: rotate(230.4deg);
+	-moz-transform: rotate(230.4deg);
+	-o-transform: rotate(230.4deg);
+}
+
+
+.github.circles .progress.p65 .bar {
+	transform: rotate(234deg);
+	-webkit-transform: rotate(234deg);
+	-moz-transform: rotate(234deg);
+	-o-transform: rotate(234deg);
+}
+
+
+.github.circles .progress.p66 .bar {
+	transform: rotate(237.6deg);
+	-webkit-transform: rotate(237.6deg);
+	-moz-transform: rotate(237.6deg);
+	-o-transform: rotate(237.6deg);
+}
+
+
+.github.circles .progress.p67 .bar {
+	transform: rotate(241.2deg);
+	-webkit-transform: rotate(241.2deg);
+	-moz-transform: rotate(241.2deg);
+	-o-transform: rotate(241.2deg);
+}
+
+
+.github.circles .progress.p68 .bar {
+	transform: rotate(244.8deg);
+	-webkit-transform: rotate(244.8deg);
+	-moz-transform: rotate(244.8deg);
+	-o-transform: rotate(244.8deg);
+}
+
+
+.github.circles .progress.p69 .bar {
+	transform: rotate(248.4deg);
+	-webkit-transform: rotate(248.4deg);
+	-moz-transform: rotate(248.4deg);
+	-o-transform: rotate(248.4deg);
+}
+
+
+.github.circles .progress.p70 .bar {
+	transform: rotate(252deg);
+	-webkit-transform: rotate(252deg);
+	-moz-transform: rotate(252deg);
+	-o-transform: rotate(252deg);
+}
+
+
+.github.circles .progress.p71 .bar {
+	transform: rotate(255.6deg);
+	-webkit-transform: rotate(255.6deg);
+	-moz-transform: rotate(255.6deg);
+	-o-transform: rotate(255.6deg);
+}
+
+
+.github.circles .progress.p72 .bar {
+	transform: rotate(259.2deg);
+	-webkit-transform: rotate(259.2deg);
+	-moz-transform: rotate(259.2deg);
+	-o-transform: rotate(259.2deg);
+}
+
+
+.github.circles .progress.p73 .bar {
+	transform: rotate(262.8deg);
+	-webkit-transform: rotate(262.8deg);
+	-moz-transform: rotate(262.8deg);
+	-o-transform: rotate(262.8deg);
+}
+
+
+.github.circles .progress.p74 .bar {
+	transform: rotate(266.4deg);
+	-webkit-transform: rotate(266.4deg);
+	-moz-transform: rotate(266.4deg);
+	-o-transform: rotate(266.4deg);
+}
+
+
+.github.circles .progress.p75 .bar {
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+}
+
+
+.github.circles .progress.p76 .bar {
+	transform: rotate(273.6deg);
+	-webkit-transform: rotate(273.6deg);
+	-moz-transform: rotate(273.6deg);
+	-o-transform: rotate(273.6deg);
+}
+
+
+.github.circles .progress.p77 .bar {
+	transform: rotate(277.2deg);
+	-webkit-transform: rotate(277.2deg);
+	-moz-transform: rotate(277.2deg);
+	-o-transform: rotate(277.2deg);
+}
+
+
+.github.circles .progress.p78 .bar {
+	transform: rotate(280.8deg);
+	-webkit-transform: rotate(280.8deg);
+	-moz-transform: rotate(280.8deg);
+	-o-transform: rotate(280.8deg);
+}
+
+
+.github.circles .progress.p79 .bar {
+	transform: rotate(284.4deg);
+	-webkit-transform: rotate(284.4deg);
+	-moz-transform: rotate(284.4deg);
+	-o-transform: rotate(284.4deg);
+}
+
+
+.github.circles .progress.p80 .bar {
+	transform: rotate(288deg);
+	-webkit-transform: rotate(288deg);
+	-moz-transform: rotate(288deg);
+	-o-transform: rotate(288deg);
+}
+
+
+.github.circles .progress.p81 .bar {
+	transform: rotate(291.6deg);
+	-webkit-transform: rotate(291.6deg);
+	-moz-transform: rotate(291.6deg);
+	-o-transform: rotate(291.6deg);
+}
+
+
+.github.circles .progress.p82 .bar {
+	transform: rotate(295.2deg);
+	-webkit-transform: rotate(295.2deg);
+	-moz-transform: rotate(295.2deg);
+	-o-transform: rotate(295.2deg);
+}
+
+
+.github.circles .progress.p83 .bar {
+	transform: rotate(298.8deg);
+	-webkit-transform: rotate(298.8deg);
+	-moz-transform: rotate(298.8deg);
+	-o-transform: rotate(298.8deg);
+}
+
+
+.github.circles .progress.p84 .bar {
+	transform: rotate(302.4deg);
+	-webkit-transform: rotate(302.4deg);
+	-moz-transform: rotate(302.4deg);
+	-o-transform: rotate(302.4deg);
+}
+
+
+.github.circles .progress.p85 .bar {
+	transform: rotate(306deg);
+	-webkit-transform: rotate(306deg);
+	-moz-transform: rotate(306deg);
+	-o-transform: rotate(306deg);
+}
+
+
+.github.circles .progress.p86 .bar {
+	transform: rotate(309.6deg);
+	-webkit-transform: rotate(309.6deg);
+	-moz-transform: rotate(309.6deg);
+	-o-transform: rotate(309.6deg);
+}
+
+
+.github.circles .progress.p87 .bar {
+	transform: rotate(313.2deg);
+	-webkit-transform: rotate(313.2deg);
+	-moz-transform: rotate(313.2deg);
+	-o-transform: rotate(313.2deg);
+}
+
+
+.github.circles .progress.p88 .bar {
+	transform: rotate(316.8deg);
+	-webkit-transform: rotate(316.8deg);
+	-moz-transform: rotate(316.8deg);
+	-o-transform: rotate(316.8deg);
+}
+
+
+.github.circles .progress.p89 .bar {
+	transform: rotate(320.4deg);
+	-webkit-transform: rotate(320.4deg);
+	-moz-transform: rotate(320.4deg);
+	-o-transform: rotate(320.4deg);
+}
+
+
+.github.circles .progress.p90 .bar {
+	transform: rotate(324deg);
+	-webkit-transform: rotate(324deg);
+	-moz-transform: rotate(324deg);
+	-o-transform: rotate(324deg);
+}
+
+
+.github.circles .progress.p91 .bar {
+	transform: rotate(327.6deg);
+	-webkit-transform: rotate(327.6deg);
+	-moz-transform: rotate(327.6deg);
+	-o-transform: rotate(327.6deg);
+}
+
+
+.github.circles .progress.p92 .bar {
+	transform: rotate(331.2deg);
+	-webkit-transform: rotate(331.2deg);
+	-moz-transform: rotate(331.2deg);
+	-o-transform: rotate(331.2deg);
+}
+
+
+.github.circles .progress.p93 .bar {
+	transform: rotate(334.8deg);
+	-webkit-transform: rotate(334.8deg);
+	-moz-transform: rotate(334.8deg);
+	-o-transform: rotate(334.8deg);
+}
+
+
+.github.circles .progress.p94 .bar {
+	transform: rotate(338.4deg);
+	-webkit-transform: rotate(338.4deg);
+	-moz-transform: rotate(338.4deg);
+	-o-transform: rotate(338.4deg);
+}
+
+
+.github.circles .progress.p95 .bar {
+	transform: rotate(342deg);
+	-webkit-transform: rotate(342deg);
+	-moz-transform: rotate(342deg);
+	-o-transform: rotate(342deg);
+}
+
+
+.github.circles .progress.p96 .bar {
+	transform: rotate(345.6deg);
+	-webkit-transform: rotate(345.6deg);
+	-moz-transform: rotate(345.6deg);
+	-o-transform: rotate(345.6deg);
+}
+
+
+.github.circles .progress.p97 .bar {
+	transform: rotate(349.2deg);
+	-webkit-transform: rotate(349.2deg);
+	-moz-transform: rotate(349.2deg);
+	-o-transform: rotate(349.2deg);
+}
+
+
+.github.circles .progress.p98 .bar {
+	transform: rotate(352.8deg);
+	-webkit-transform: rotate(352.8deg);
+	-moz-transform: rotate(352.8deg);
+	-o-transform: rotate(352.8deg);
+}
+
+
+.github.circles .progress.p99 .bar {
+	transform: rotate(356.4deg);
+	-webkit-transform: rotate(356.4deg);
+	-moz-transform: rotate(356.4deg);
+	-o-transform: rotate(356.4deg);
+}
+
+
+.github.circles .progress.p100 .bar {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+
+
+@media (max-width: 720px) {
+	.github ul li {
+		width: 100%;
+	}
+
+
+	.github.dotted ul li {
+		width: 100%;
+	}
+
+
+	.github.circles ul li {
+		width: 50%;
+	}
+
+
+	.github.circles .progress {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}

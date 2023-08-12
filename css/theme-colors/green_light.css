@@ -1,0 +1,205 @@
+/*
+*	 Author: beshleyua
+*	 Author URL: http://themeforest.net/user/beshleyua
+*/
+
+/* TABLE OF CONTENTS
+	- Theme Green Light #B3E3B5
+*/
+
+.preloader .box-1 {
+	background: #B3E3B5;
+}
+
+.preloader .spinner .lines:after {
+	background: #B3E3B5;
+}
+
+a:hover {
+	color: #B3E3B5;
+}
+
+.animated-button span {
+	text-shadow: 0 16px 0 #B3E3B5;
+}
+
+a.btn:hover,
+.btn:hover,
+.single-post-text input[type="submit"]:hover,
+button:hover {
+	border-color: #B3E3B5;
+}
+
+a.btn:hover .icon,
+.btn:hover .icon,
+.single-post-text input[type="submit"]:hover .icon,
+button:hover .icon {
+	color: #B3E3B5;
+}
+
+.header .top-menu ul li.current-menu-item > a {
+	color: #B3E3B5;
+}
+
+.header .top-menu-nav .sub-menu li a:hover,
+.header .top-menu-nav .children li a:hover,
+.header .top-menu-nav .sub-menu li.active a,
+.header .top-menu-nav .children li.active a {
+	color: #B3E3B5;
+}
+
+.background-filter {
+	background-color: #B3E3B5;
+}
+
+.section .titles .subtitle {
+	color: #B3E3B5;
+}
+
+.section.started .h-title strong {
+	color: #B3E3B5;
+}
+
+.section.started .started-content .h-subtitle,
+.section.started .started-content .typed-subtitle,
+.section.started .started-content .typed-cursor {
+	color: #B3E3B5;
+}
+
+.info-list ul li strong {
+	color: #B3E3B5;
+}
+
+.resume-item .date {
+	color: #B3E3B5;
+}
+
+.resume-item .icon {
+	color: #B3E3B5;
+}
+
+.skills .progress .percentage {
+	background: #B3E3B5;
+}
+
+.skills .progress .percentage .percent {
+	color: #B3E3B5;
+}
+
+.skills.list .name:before {
+	color: #B3E3B5;
+}
+
+.skills.dotted .progress .da span {
+	background: #B3E3B5;
+}
+
+.skills.circles .progress span {
+	color: #B3E3B5;
+}
+
+.skills.circles .progress .bar,
+.skills.circles .progress.p51 .fill,
+.skills.circles .progress.p52 .fill,
+.skills.circles .progress.p53 .fill,
+.skills.circles .progress.p54 .fill,
+.skills.circles .progress.p55 .fill,
+.skills.circles .progress.p56 .fill,
+.skills.circles .progress.p57 .fill,
+.skills.circles .progress.p58 .fill,
+.skills.circles .progress.p59 .fill,
+.skills.circles .progress.p60 .fill,
+.skills.circles .progress.p61 .fill,
+.skills.circles .progress.p62 .fill,
+.skills.circles .progress.p63 .fill,
+.skills.circles .progress.p64 .fill,
+.skills.circles .progress.p65 .fill,
+.skills.circles .progress.p66 .fill,
+.skills.circles .progress.p67 .fill,
+.skills.circles .progress.p68 .fill,
+.skills.circles .progress.p69 .fill,
+.skills.circles .progress.p70 .fill,
+.skills.circles .progress.p71 .fill,
+.skills.circles .progress.p72 .fill,
+.skills.circles .progress.p73 .fill,
+.skills.circles .progress.p74 .fill,
+.skills.circles .progress.p75 .fill,
+.skills.circles .progress.p76 .fill,
+.skills.circles .progress.p77 .fill,
+.skills.circles .progress.p78 .fill,
+.skills.circles .progress.p79 .fill,
+.skills.circles .progress.p80 .fill,
+.skills.circles .progress.p81 .fill,
+.skills.circles .progress.p82 .fill,
+.skills.circles .progress.p83 .fill,
+.skills.circles .progress.p84 .fill,
+.skills.circles .progress.p85 .fill,
+.skills.circles .progress.p86 .fill,
+.skills.circles .progress.p87 .fill,
+.skills.circles .progress.p88 .fill,
+.skills.circles .progress.p89 .fill,
+.skills.circles .progress.p90 .fill,
+.skills.circles .progress.p91 .fill,
+.skills.circles .progress.p92 .fill,
+.skills.circles .progress.p93 .fill,
+.skills.circles .progress.p94 .fill,
+.skills.circles .progress.p95 .fill,
+.skills.circles .progress.p96 .fill,
+.skills.circles .progress.p97 .fill,
+.skills.circles .progress.p98 .fill,
+.skills.circles .progress.p99 .fill,
+.skills.circles .progress.p100 .fill {
+	border-color: #B3E3B5;
+}
+
+.service-item .icon {
+	color: #B3E3B5;
+}
+
+.section.works .filters label.glitch-effect {
+	color: #B3E3B5;
+}
+
+.box-items .box-item:hover .desc .name {
+	color: #B3E3B5;
+}
+
+.box-items .box-item .image .info .centrize {
+	background: #B3E3B5;
+}
+
+.box-items .box-item .desc .category {
+	color: #B3E3B5;
+}
+
+.contact-form .group-val .label strong {
+	color: #B3E3B5;
+}
+
+.contact-info .subname {
+	color: #B3E3B5;
+}
+
+.pricing-item .icons {
+	color: #B3E3B5;
+}
+
+.pricing-item .feature-list ul li strong {
+	background: #B3E3B5;
+}
+
+.reviews-item .company {
+	color: #B3E3B5;
+}
+
+.reviews-item .text:before {
+	color: #B3E3B5;
+}
+
+blockquote {
+	border-left-color: #B3E3B5;
+}
+
+.footer .socials a:hover {
+	color: #B3E3B5;
+}
