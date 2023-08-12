@@ -858,15 +858,19 @@
 						<form id="cform" method="post">
 							<div class="group-val">
 								<div class="label">Full name <strong>*</strong></div>
-   								<input type="text" name="name" placeholder="ej.: Genoveva Lian Hullt" />
+								<input type="text" name="name" placeholder="e.g. Genoveva Lian Hullt" required>
 							</div>
 							<div class="group-val">
 								<div class="label">Email address <strong>*</strong></div>
-								<input type="email" name="email" placeholder="example@domain.com" />
+								<input type="email" name="email" placeholder="example@domain.com" required>
+							</div>
+							<div class="group-val">
+								<div class="label">Phone <strong>*</strong></div>
+								<input type="phone" name="phone" placeholder="1234567890" required>
 							</div>
 							<div class="group-val">
 								<div class="label">Message <strong>*</strong></div>
-								<textarea name="message" placeholder="To Write"></textarea>
+								<textarea name="message" placeholder="Type your message here" required></textarea>
 							</div>
 							<div class="group-bts">
 								<button type="submit" class="btn">
@@ -875,7 +879,7 @@
 								</button>
 							</div>
 						</form>
-						<div class="alert-success">
+						<div class="alert-success" id="success-message">
 							<p>Thanks, your message is sent successfully.</p>
 						</div>
 					</div>
@@ -942,6 +946,9 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/swiper.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/email.js"></script>
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 
 </body>
 </html>
