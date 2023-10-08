@@ -47,7 +47,8 @@
 <br>
 <h3 align="center">My Hacktoberfest badge board</h3>
 
-[![@AbyvargheseMandapathel's Holopin board](https://holopin.io/api/user/board?user=AbyvargheseMandapathel)](https://holopin.io/@AbyvargheseMandapathel)
+[![An image of @abyvarghesemandapathel's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/abyvarghesemandapathel)](https://holopin.io/@abyvarghesemandapathel)
+
 
 <br>
 
