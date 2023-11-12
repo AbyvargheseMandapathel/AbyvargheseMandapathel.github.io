@@ -53,7 +53,7 @@
 <br>
 
 <!--START_SECTION:waka-->
-<center><img src="https://wakatime.com/share/@018bbf26-b9b6-4eb2-8f76-44be7a79474b/c892163f-15b6-4e63-b59b-c975ecadb0fa.png" width="70%"/></center>
+<div align="center"><img src="https://wakatime.com/share/@018bbf26-b9b6-4eb2-8f76-44be7a79474b/c892163f-15b6-4e63-b59b-c975ecadb0fa.png" width="70%"/></div>
 <!--END_SECTION:waka-->
 
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
